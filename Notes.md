@@ -285,4 +285,5 @@ The service worker is in its current raw 'not for public consumption' form. My g
 Please share with me any thoughts you have or improvements that could be made. Together we can come up with a solution that will get us by until a more polished supported version becomes available from Microsoft. 
 
 I welcome all comments!
+
 Joe
