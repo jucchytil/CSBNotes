@@ -83,7 +83,7 @@ I put a link to ServiceWorker.js file immediately after the base tag.
 I then register the in the following script tag.  Thats it.
 
 ## ServiceWorker.js
-Here is the contents of my service worker in all of its 
+Here is the contents of my service worker.
 
 ```
 
