@@ -78,8 +78,9 @@ Here is the header portion of my index.html. The rest of the index.html is just 
 ```
 
 I put a link to ServiceWorker.js file immediately after the base tag.
+```
   <link rel="script" href="ServiceWorker.js" />
-
+```
 I then register the in the following script tag.  Thats it.
 
 ## ServiceWorker.js
