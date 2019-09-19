@@ -81,7 +81,25 @@ I put a link to ServiceWorker.js file immediately after the base tag.
 ```
   <link rel="script" href="ServiceWorker.js" />
 ```
-I then register the in the following script tag.  Thats it.
+I then register it in the following script tag.  Thats it.
+
+```
+<script>
+     if ('serviceWorker' in navigator) 
+     {
+        console.log('Registering service worker');
+        navigator.serviceWorker.register('/ServiceWorker.js')
+               .then(function (registration) 
+               {
+                  console.log('Service Worker Registration succeeded');
+               });
+     }
+     else 
+     {
+       console.log('Service worker already registered');
+     }
+  </script>
+```
 
 ## ServiceWorker.js
 Here is the contents of my service worker.
