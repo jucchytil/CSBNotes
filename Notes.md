@@ -306,3 +306,10 @@ Please share with me any thoughts you have or improvements that could be made. T
 I welcome all comments!
 
 Joe
+
+
+
+Next Step:
+* Clean up the service worker
+* Incorporate detection of new version on the server and refresh the cache
+
